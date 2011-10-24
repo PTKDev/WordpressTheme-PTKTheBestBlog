@@ -1,0 +1,87 @@
+.post-content{
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+#title{
+	clear: both;
+	text-align: left;
+}
+
+.date { 
+	background:url("./../img/data.png"); 
+	background-repeat: no-repeat; 
+	padding-left:20px; 
+}
+
+.tags { 
+	background:url("./../img/tags.png"); 
+	background-repeat: no-repeat; 
+	padding-left: 20px; 
+	text-align: left;
+	float: left;
+}
+
+.post { 
+	background:url("./../img/posted.png"); 
+	background-repeat: no-repeat; 
+	padding-left:20px; 
+}
+
+.post-title{
+	float: left;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.title-space{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.bold{
+  font-family: "Verdana",MSVerdanaBold;  
+  font-weight: bold;
+}
+
+.title-cat{
+  font-family: "Verdana",MSVerdana; 
+  font-size: 12px;
+  color: #000000;
+}
+
+
+.post-vocalread{
+	float: left;
+	padding: 9px;
+}
+
+.content-post{
+	clear: both;
+	text-align: justify;
+	padding-left: 5px;
+}
+.comment{
+	clear: both;
+	padding-top: 10px;
+}
+.pie_post{
+	font-family: "Trebuchet MS",TrebucbiBold; 
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+}
+.comment-align{
+	text-align: right;
+}
+.tag-align{
+	text-align: left;
+}
+.social-align{
+	margin-bottom: -20px;
+}
+
+.page-select{
+	text-align:center;
+	clear: both;
+}

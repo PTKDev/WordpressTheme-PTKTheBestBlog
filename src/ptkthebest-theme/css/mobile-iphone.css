@@ -1,0 +1,117 @@
+html,body{
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	border: 0;
+	max-width: 290px;
+	max-height: 290px;
+}
+
+#container{
+	width: 300px;
+	margin: 0 auto;
+	font-family: MSVerdana,"Verdana";   
+	font-size: 11px;
+	color: #000000;
+}
+
+#body{
+    clear: both;
+	text-align: justify;
+}
+
+#logo{
+    clear: both;
+    background-image: url("./../img/mobile-iphone/head1.png"); 
+    background-repeat: no-repeat; 
+    width: 300px;
+    height: 60px; 
+	text-align: center;
+}
+
+.post{
+	padding: 8px;
+}
+
+.menu{
+    clear: both;
+    text-align: center;
+}
+
+
+.sep{
+	clear: both;
+	background-image: url("./../img/mobile-iphone/sep.png"); 
+	background-repeat: no-repeat; 
+	width: 300px;
+	height: 18px; 
+    text-align: center;
+}
+
+
+#footer{
+    clear: both;
+    background-image: url("./../img/mobile-iphone/footer.png"); 
+    background-repeat: no-repeat; 
+    width: 300px;
+    height: 54px; 
+    text-align: center;
+}
+
+
+.avatar
+{
+     width: 32px;
+     height: 32px;
+}
+
+textarea#comment
+{
+    max-width: 300px;
+}
+
+.wp-smiley{
+    width: 15px;
+    height: 15px; 
+}
+
+.youtube-video{
+    display: none;
+}
+
+.align-select{
+	clear: both;
+	text-align: center;
+}
+
+a:link.st_tag, a:visited.st_tag, a:hover.st_tag, a:active.st_tag, a:focus.st_tag{
+	text-decoration:none;
+	color: #000000;
+}
+
+a:link.internal_tag, a:visited.internal_tag, a:hover.internal_tag, a:active.internal_tag, a:focus.internal_tag{
+	text-decoration:none;
+	color: #000000;
+}
+
+a:link, a:visited, a:hover, a:active, a:focus{
+	color: #000000;
+}
+
+a:link:hover, a:visited:hover{ 
+    text-decoration:underline;
+}
+a:active{ 
+    text-decoration:underline;
+}
+a:focus{ 
+    text-decoration:underline;
+}
+a:visited{ 
+    text-decoration:underline;
+}
+a:link{ 
+    text-decoration:underline;
+}

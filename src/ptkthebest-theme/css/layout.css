@@ -1,0 +1,67 @@
+html,body{
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	border: 0;
+}
+
+@font-face {
+  font-family: Droid;
+  src: local('Droid'), url("./font/droid.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: MSVerdana;
+  src: local('MSVerdana'), url("./font/verdana.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: MSVerdanaBold;
+  src: local('MSVerdanaBold'), url("./font/verdanab.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Trebucbi;
+  src: local('Trebucbi'), url("./font/trebuc.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: TrebucbiBold;
+  src: local('TrebucbiBold'), url("./font/trebucbd.ttf") format("truetype");
+}
+
+#container{
+	width: 780px;
+	margin: 0 auto;
+	font-family: "Verdana",MSVerdana; 
+	font-size: 14px;
+	color: #000000;
+}
+
+#header{
+	clear: both;
+	background-image: url("./../img/logo.png"); 
+	background-repeat: no-repeat; 
+	width: 777px;
+	height: 126px; 
+}
+
+#content{
+	clear: both;
+}
+
+#footer{
+	clear: both;
+	background-image: url("./../img/bg_footer.png"); 
+	background-repeat: no-repeat; 
+	width: 780px;
+	height: 85px;
+	text-align: center;
+	font-family: "Trebuchet MS",TrebucbiBold;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+
